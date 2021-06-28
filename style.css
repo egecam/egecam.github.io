@@ -1,0 +1,324 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(13, 17, 23);
+}
+
+footer {
+  padding: 0px;
+  border-top-left-radius: 36px;
+  border-top-right-radius: 36px;
+}
+
+a::selection {
+  background-color: rgb(55, 65, 81);
+}
+
+p::selection {
+  background-color: rgb(55, 65, 81);
+}
+
+h1::selection {
+  background-color: rgb(55, 65, 81);
+}
+
+div::selection {
+  background-color: rgb(55, 65, 81);
+}
+
+li::selection {
+  background-color: rgb(55, 65, 81);
+}
+
+br::selection {
+  background-color: rgb(55, 65, 81);
+}
+
+span::selection {
+  background-color: rgb(55, 65, 81);
+}
+
+img::selection {
+  background-color: rgb(55, 65, 81);
+}
+
+.navbar {
+  justify-content: space-around;
+  text-align: left;
+  color: rgb(219, 220, 223);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 16px;
+  width: 28rem;
+}
+
+.navbar-links {
+  background-color: rgba(19, 28, 43, 0.8);
+  border-end-end-radius: 3rem;
+}
+
+.navbar-links ul {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+}
+
+.navbar-links li {
+  list-style: none;
+  margin: 15px 0px 15px 50px;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: rgb(219, 220, 223);
+  padding: 10px;
+  display: block;
+  transition: 0.2s;
+}
+
+.navbar-links li a:hover {
+  color: rgb(96, 165, 250);
+  transition: 0.3s;
+}
+
+.head-title {
+  font-family: "JetBrains Mono", monospace;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.header {
+  color: rgb(219, 220, 223);
+}
+
+.profile-img {
+  border-radius: 50px;
+  width: 96px;
+  text-align: center;
+  padding: 10px;
+}
+
+.title-exp {
+  color: rgb(219, 220, 223);
+  font-size: 16px;
+  text-align: center;
+  margin: 0px 30%;
+}
+
+.pron {
+  font-size: 16px;
+  color: rgb(168, 169, 172);
+}
+
+.title-exp a {
+  color: rgb(96, 165, 250);
+  text-decoration: none;
+}
+
+.title-exp a:hover {
+  text-decoration: solid underline 1px;
+  transition: 0.1s;
+}
+
+.about-me {
+  font-family: "JetBrains Mono", monospace;
+  color: rgb(219, 220, 223);
+}
+
+.me-text {
+  margin: 100px 30%;
+}
+
+.me-title {
+  font-family: "JetBrains Mono", monospace;
+  justify-content: space-between;
+  padding-left: 0px;
+}
+
+.my-works {
+  margin: 100px 30%;
+}
+
+.works-title {
+  font-family: "JetBrains Mono", monospace;
+  justify-content: space-between;
+  padding-left: 0px;
+}
+
+.project-title li {
+  list-style: none;
+}
+
+.project-title a {
+  font-family: "JetBrains Mono", monospace;
+  text-decoration: none;
+  font-size: 9px;
+  color: rgb(96, 165, 250);
+  display: inline-flex;
+}
+
+.project-title a:hover {
+  text-decoration: solid underline 2px;
+  transition: 0.1s;
+}
+
+.project-title {
+  margin: 0px;
+  padding: 0px;
+}
+
+.social-media {
+  justify-content: space-around;
+  background-color: rgba(19, 28, 43, 0.8);
+  width: 28rem;
+  border-top-right-radius: 5rem;
+  margin: 0px 0px;
+  text-align: left;
+}
+
+.sm-links {
+  font-family: "JetBrains Mono", monospace;
+  display: inline-flex;
+  text-decoration: none;
+  font-size: 14px;
+  color: rgb(96, 165, 250);
+  list-style: none;
+}
+
+.sm-links li {
+  padding: 0px;
+}
+
+.sm-links a {
+  margin: 28px;
+  text-decoration: none;
+  color: rgb(96, 165, 250);
+}
+
+.sm-links a:hover {
+  text-decoration: solid underline 1px;
+  transition: 0.1s;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(13, 17, 23);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(168, 169, 172);
+  border-radius: 12px;
+}
+
+.form {
+  justify-content: space-around;
+  text-align: left;
+  margin: 100px 30%;
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea {
+  outline: none;
+}
+
+#username {
+  font-family: "JetBrains Mono", monospace;
+  color: rgb(219, 220, 223);
+  border: solid 3px rgb(50, 96, 172, 0.5);
+  background-color: rgb(13, 17, 23);
+  border-radius: 5px;
+  font-size: 16px;
+  width: 180px;
+  height: 36px;
+}
+
+#email {
+  font-family: "JetBrains Mono", monospace;
+  color: rgb(219, 220, 223);
+  border: solid 3px rgb(50, 96, 172, 0.5);
+  background-color: rgb(13, 17, 23);
+  border-radius: 5px;
+  font-size: 16px;
+  width: 250px;
+  height: 36px;
+}
+
+#message {
+  font-family: "JetBrains Mono", monospace;
+  color: rgb(219, 220, 223);
+  border: solid 3px rgb(50, 96, 172, 0.5);
+  background-color: rgb(13, 17, 23);
+  border-radius: 5px;
+  font-size: 14px;
+  width: 440px;
+}
+
+#send {
+  font-family: "JetBrains Mono", monospace;
+  color: rgb(219, 220, 223);
+  border: solid 3px rgb(50, 96, 172, 0.5);
+  background-color: rgb(13, 17, 23);
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100px;
+  height: 36px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#send:active {
+  background-color: rgb(50, 96, 172, 1);
+  transition: 0.1s;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    text-align: center;
+    margin: 0px 20px;
+    font-size: 20px;
+  }
+
+  .navbar-links {
+    border-end-start-radius: 3rem;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .navbar-links li {
+    margin-left: 0px;
+  }
+
+  .navbar ul {
+    justify-content: center;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .head-title {
+    justify-content: center;
+  }
+  .about-me {
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+  }
+  .me-text {
+    margin: 20%;
+  }
+  .my-works {
+    margin: 20%;
+  }
+  .title-exp {
+    margin: 0px 20% 0px 20%;
+  }
+}
